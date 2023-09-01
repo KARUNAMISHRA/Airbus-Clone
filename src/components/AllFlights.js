@@ -111,7 +111,7 @@ const AllFlights = () => {
                   <div className="to city_name">{flight.to}</div>
                   <div className="via city_name">{flight.via[0]}</div>
                 </div>
-{/* { 
+
                 <div className="width_hundred departure">
                   <div className="width_hundred departureDate">
                     {flight.departure.departureDate}
@@ -119,7 +119,7 @@ const AllFlights = () => {
                   <div className="width_hundred departureTime">
                     {flight.departure.departureTime}
                   </div>
-                </div> } */}
+                </div> } 
 
                 <div className="width_hundred priceAndBooking">
                   <div className=" price">₹{flight.price}</div>
